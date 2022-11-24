@@ -1,6 +1,13 @@
 # package files
+.jar
+.war
+.ear
 target/
 
 # IDEA
-.idea
+.idea/
 *.iml
+
+# idea #
+*.iml
+.idea

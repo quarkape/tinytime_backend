@@ -17,12 +17,12 @@ public class SendMailUtil {
     // QQ邮箱的 SMTP 服务器地址为: smtp.qq.com
     private static String myEmailSMTPHost = "smtp.qq.com";
 
-    //发件人邮箱
+    //发件人邮箱，这里替换成你自己的邮箱就可以了，不过注意qq邮箱每天发邮件的数量是有限制的
     private static String myEmailAccount = "quarkape@qq.com";
 
     //发件人邮箱密码（授权码）
     //在开启SMTP服务时会获取到一个授权码，把授权码填在这里
-    private static String myEmailPassword = "cspyhaclxvcadife";
+    private static String myEmailPassword = "xxx";
 
     /**
      * 邮件单发（自由编辑短信，并发送，适用于私信）
